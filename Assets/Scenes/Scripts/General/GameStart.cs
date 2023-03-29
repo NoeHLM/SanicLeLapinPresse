@@ -20,17 +20,31 @@ public class GameStart : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    bool goDisplayed = false;
+
+void Update()
+{
+    currentTime -= 1 * Time.deltaTime;
+    countdownText.text = currentTime.ToString("0");
+
+     if (currentTime <= 0) {
+        currentTime = 0;
+        countdownText.text = "Go";
+     }
+
+    if (currentTime <= 0 && !goDisplayed)
     {
-
-        currentTime -=1 * Time.deltaTime;
-        countdownText.text = currentTime.ToString("0");
-        
-
-        if (currentTime <= 0)
-        {
-            currentTime=0;
-        }
-        
+        currentTime = 0;
+        countdownText.text = "Go";
+        goDisplayed = true;
+        Invoke("ResetCountdownText", 1f);
     }
+}
+
+void ResetCountdownText()
+{
+    countdownText.text = "";
+}
+
+
 }
