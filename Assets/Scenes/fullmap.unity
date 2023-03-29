@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2633126}
   - component: {fileID: 2633125}
+  - component: {fileID: 2633127}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17 (13)"
   m_TagString: Untagged
@@ -207,6 +208,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -42.742}
+--- !u!61 &2633127
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2633124}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
 --- !u!1 &103946610
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,6 +244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 103946612}
   - component: {fileID: 103946611}
+  - component: {fileID: 103946613}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17 (19)"
   m_TagString: Untagged
@@ -291,6 +319,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &103946613
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103946610}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
 --- !u!1 &129353092
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,6 +355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 129353094}
   - component: {fileID: 129353093}
+  - component: {fileID: 129353095}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17 (11)"
   m_TagString: Untagged
@@ -375,6 +430,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 42.466}
+--- !u!61 &129353095
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129353092}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
 --- !u!1 &164739997
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,6 +466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 164739999}
   - component: {fileID: 164739998}
+  - component: {fileID: 164740000}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17 (9)"
   m_TagString: Untagged
@@ -459,6 +541,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -42.66}
+--- !u!61 &164740000
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164739997}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
 --- !u!1 &227249514
 GameObject:
   m_ObjectHideFlags: 0
@@ -580,6 +688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 238374880}
   - component: {fileID: 238374879}
+  - component: {fileID: 238374881}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17 (14)"
   m_TagString: Untagged
@@ -654,6 +763,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -42.61}
+--- !u!61 &238374881
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238374878}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
 --- !u!1 &279938398
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,6 +799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 279938400}
   - component: {fileID: 279938399}
+  - component: {fileID: 279938401}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 10.21.55"
   m_TagString: Untagged
@@ -738,6 +874,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -26.483}
+--- !u!61 &279938401
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279938398}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.96, y: 1.34}
+    newSize: {x: 9.96, y: 1.34}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.96, y: 1.34}
+  m_EdgeRadius: 0
 --- !u!1 &294656152
 GameObject:
   m_ObjectHideFlags: 0
@@ -748,6 +910,7 @@ GameObject:
   m_Component:
   - component: {fileID: 294656154}
   - component: {fileID: 294656153}
+  - component: {fileID: 294656155}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17 (3)"
   m_TagString: Untagged
@@ -822,6 +985,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &294656155
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294656152}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
 --- !u!1 &357258165
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,6 +1021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 357258167}
   - component: {fileID: 357258166}
+  - component: {fileID: 357258168}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17"
   m_TagString: Untagged
@@ -906,6 +1096,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &357258168
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357258165}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
 --- !u!1 &437774955
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,6 +1132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 437774957}
   - component: {fileID: 437774956}
+  - component: {fileID: 437774958}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17 (22)"
   m_TagString: Untagged
@@ -990,6 +1207,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.295}
+--- !u!61 &437774958
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437774955}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
 --- !u!1 &441044738
 GameObject:
   m_ObjectHideFlags: 0
@@ -1189,6 +1432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 520157747}
   - component: {fileID: 520157746}
+  - component: {fileID: 520157748}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 10.21.55 (2)"
   m_TagString: Untagged
@@ -1263,6 +1507,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -23.509}
+--- !u!61 &520157748
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520157745}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.96, y: 1.34}
+    newSize: {x: 9.96, y: 1.34}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.96, y: 1.34}
+  m_EdgeRadius: 0
 --- !u!1001 &536124889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1330,6 +1600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 592703343}
   - component: {fileID: 592703342}
+  - component: {fileID: 592703344}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 10.21.55 (9)"
   m_TagString: Untagged
@@ -1404,6 +1675,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.914}
+--- !u!61 &592703344
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592703341}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.96, y: 1.34}
+    newSize: {x: 9.96, y: 1.34}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.96, y: 1.34}
+  m_EdgeRadius: 0
 --- !u!1 &593114510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1414,6 +1711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 593114512}
   - component: {fileID: 593114511}
+  - component: {fileID: 593114513}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-27 a\u0300 15.29.25 (34)"
   m_TagString: Untagged
@@ -1488,6 +1786,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &593114513
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593114510}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.36, y: 0.66}
+    newSize: {x: 6.36, y: 0.66}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.36, y: 0.66}
+  m_EdgeRadius: 0
 --- !u!1001 &636160987
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1612,6 +1936,7 @@ GameObject:
   m_Component:
   - component: {fileID: 767905670}
   - component: {fileID: 767905669}
+  - component: {fileID: 767905671}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17 (5)"
   m_TagString: Untagged
@@ -1686,6 +2011,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -43.258}
+--- !u!61 &767905671
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767905668}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
 --- !u!1 &768590740
 GameObject:
   m_ObjectHideFlags: 0
@@ -1918,6 +2269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 922435262}
   - component: {fileID: 922435261}
+  - component: {fileID: 922435263}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17 (6)"
   m_TagString: Untagged
@@ -1992,6 +2344,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -44.38}
+--- !u!61 &922435263
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922435260}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
 --- !u!1 &972638376
 GameObject:
   m_ObjectHideFlags: 0
@@ -2002,6 +2380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 972638378}
   - component: {fileID: 972638377}
+  - component: {fileID: 972638379}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17 (16)"
   m_TagString: Untagged
@@ -2076,6 +2455,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 41.645}
+--- !u!61 &972638379
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972638376}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
 --- !u!1 &1078720265
 GameObject:
   m_ObjectHideFlags: 0
@@ -2086,6 +2491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1078720267}
   - component: {fileID: 1078720266}
+  - component: {fileID: 1078720268}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 10.21.55 (1)"
   m_TagString: Untagged
@@ -2160,6 +2566,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 23.213}
+--- !u!61 &1078720268
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078720265}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.96, y: 1.34}
+    newSize: {x: 9.96, y: 1.34}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.96, y: 1.34}
+  m_EdgeRadius: 0
 --- !u!1001 &1080895246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2227,6 +2659,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1094535072}
   - component: {fileID: 1094535071}
+  - component: {fileID: 1094535073}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 10.21.55 (7)"
   m_TagString: Untagged
@@ -2301,6 +2734,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1094535073
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094535070}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.96, y: 1.34}
+    newSize: {x: 9.96, y: 1.34}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.96, y: 1.34}
+  m_EdgeRadius: 0
 --- !u!1001 &1162974438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2376,6 +2835,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1186045405}
   - component: {fileID: 1186045404}
+  - component: {fileID: 1186045406}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17 (10)"
   m_TagString: Untagged
@@ -2450,6 +2910,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 41.824}
+--- !u!61 &1186045406
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186045403}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
 --- !u!1 &1280586387
 GameObject:
   m_ObjectHideFlags: 0
@@ -2682,6 +3168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1328862209}
   - component: {fileID: 1328862208}
+  - component: {fileID: 1328862210}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17 (7)"
   m_TagString: Untagged
@@ -2756,6 +3243,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 39.116}
+--- !u!61 &1328862210
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328862207}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
 --- !u!1 &1427161020
 GameObject:
   m_ObjectHideFlags: 0
@@ -2766,6 +3279,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1427161022}
   - component: {fileID: 1427161021}
+  - component: {fileID: 1427161023}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17 (15)"
   m_TagString: Untagged
@@ -2840,6 +3354,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 41.805}
+--- !u!61 &1427161023
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427161020}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
 --- !u!1001 &1429786449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2907,6 +3447,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1465003844}
   - component: {fileID: 1465003843}
+  - component: {fileID: 1465003845}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 10.21.55 (6)"
   m_TagString: Untagged
@@ -2981,6 +3522,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.262}
+--- !u!61 &1465003845
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465003842}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.96, y: 1.34}
+    newSize: {x: 9.96, y: 1.34}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.96, y: 1.34}
+  m_EdgeRadius: 0
 --- !u!1 &1508832881
 GameObject:
   m_ObjectHideFlags: 0
@@ -2991,6 +3558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1508832883}
   - component: {fileID: 1508832882}
+  - component: {fileID: 1508832884}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 10.21.55 (3)"
   m_TagString: Untagged
@@ -3065,6 +3633,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.134}
+--- !u!61 &1508832884
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508832881}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.96, y: 1.34}
+    newSize: {x: 9.96, y: 1.34}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.96, y: 1.34}
+  m_EdgeRadius: 0
 --- !u!1 &1752548446
 GameObject:
   m_ObjectHideFlags: 0
@@ -3408,6 +4002,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1808173636}
   - component: {fileID: 1808173635}
+  - component: {fileID: 1808173637}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 10.21.55 (5)"
   m_TagString: Untagged
@@ -3482,6 +4077,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.622}
+--- !u!61 &1808173637
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808173634}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.96, y: 1.34}
+    newSize: {x: 9.96, y: 1.34}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.96, y: 1.34}
+  m_EdgeRadius: 0
 --- !u!1 &1925471744
 GameObject:
   m_ObjectHideFlags: 0
@@ -3492,6 +4113,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1925471746}
   - component: {fileID: 1925471745}
+  - component: {fileID: 1925471747}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 10.21.55 (4)"
   m_TagString: Untagged
@@ -3566,6 +4188,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.61}
+--- !u!61 &1925471747
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925471744}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.96, y: 1.34}
+    newSize: {x: 9.96, y: 1.34}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.96, y: 1.34}
+  m_EdgeRadius: 0
 --- !u!1 &1972151151
 GameObject:
   m_ObjectHideFlags: 0
@@ -3576,6 +4224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1972151153}
   - component: {fileID: 1972151152}
+  - component: {fileID: 1972151154}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17 (23)"
   m_TagString: Untagged
@@ -3650,6 +4299,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1972151154
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972151151}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
 --- !u!1 &1988780249
 GameObject:
   m_ObjectHideFlags: 0
@@ -3771,6 +4446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2027067224}
   - component: {fileID: 2027067223}
+  - component: {fileID: 2027067225}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17 (4)"
   m_TagString: Untagged
@@ -3845,6 +4521,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 39.398}
+--- !u!61 &2027067225
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027067222}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
 --- !u!1 &2038373408
 GameObject:
   m_ObjectHideFlags: 0
@@ -3939,6 +4641,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2043614207}
   - component: {fileID: 2043614206}
+  - component: {fileID: 2043614208}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17 (1)"
   m_TagString: Untagged
@@ -4013,6 +4716,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2043614208
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043614205}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
 --- !u!1 &2077559148
 GameObject:
   m_ObjectHideFlags: 0
@@ -4023,6 +4752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2077559150}
   - component: {fileID: 2077559149}
+  - component: {fileID: 2077559151}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17 (8)"
   m_TagString: Untagged
@@ -4097,6 +4827,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -43.01}
+--- !u!61 &2077559151
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077559148}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
 --- !u!1 &2106364648
 GameObject:
   m_ObjectHideFlags: 0
@@ -4107,6 +4863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2106364650}
   - component: {fileID: 2106364649}
+  - component: {fileID: 2106364651}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 10.21.55 (8)"
   m_TagString: Untagged
@@ -4181,6 +4938,32 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2106364651
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106364648}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.96, y: 1.34}
+    newSize: {x: 9.96, y: 1.34}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.96, y: 1.34}
+  m_EdgeRadius: 0
 --- !u!1 &2122014844
 GameObject:
   m_ObjectHideFlags: 0
@@ -4302,6 +5085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2129779402}
   - component: {fileID: 2129779401}
+  - component: {fileID: 2129779403}
   m_Layer: 0
   m_Name: "Capture d\u2019e\u0301cran 2023-03-29 a\u0300 09.18.17 (2)"
   m_TagString: Untagged
@@ -4376,3 +5160,29 @@ Transform:
   m_Father: {fileID: 494486103}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2129779403
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129779400}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 6.22}
+    newSize: {x: 0.84, y: 6.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.84, y: 6.22}
+  m_EdgeRadius: 0
