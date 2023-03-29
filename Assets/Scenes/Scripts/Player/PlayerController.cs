@@ -4,6 +4,7 @@ using UnityEngine;
 public class PlayerController: MonoBehaviour
 {
     private float horizontal;
+    
     private float speed = 15f;
     private float jumpingPower = 20f;
     private bool isFacingRight = true;
@@ -14,6 +15,7 @@ public class PlayerController: MonoBehaviour
     private float dashingTime = 0.5f;
     private float dashingCooldown = 2f;
 
+    [SerializeField] private KeyCode jump ;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
