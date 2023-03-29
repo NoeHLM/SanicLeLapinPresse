@@ -4,13 +4,13 @@ using UnityEngine;
 public class PlayerController: MonoBehaviour
 {
     private float horizontal;
-    private float speed = 6f;
-    private float jumpingPower = 16f;
+    private float speed = 15f;
+    private float jumpingPower = 20f;
     private bool isFacingRight = true;
 
     private bool canDash = true;
     private bool isDashing;
-    private float dashingPower = 50f;
+    private float dashingPower = 150f;
     private float dashingTime = 0.5f;
     private float dashingCooldown = 2f;
 
