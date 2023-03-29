@@ -10,41 +10,32 @@ public class GameStart : MonoBehaviour
     float currentTime= 0f;
     float startingTime= 3f;
     
+    
     [SerializeField] TMP_Text countdownText;
+    private float timeRemaining = 3f;
 
     // Start is called before the first frame update
-    void Start()
+   void Start()
     {
-        currentTime = startingTime;
-        
+        StartCoroutine(CountdownRoutine());
     }
 
-    // Update is called once per frame
-    bool goDisplayed = false;
+    IEnumerator CountdownRoutine()
+    {
+        while (timeRemaining > -1)
+        {
+            countdownText.text = Mathf.CeilToInt(timeRemaining).ToString();
+            yield return new WaitForSeconds(1f);
+            timeRemaining--;
+        }
+        countdownText.gameObject.SetActive(false);
+    }
 
 void Update()
 {
-    currentTime -= 1 * Time.deltaTime;
-    countdownText.text = currentTime.ToString("0");
-
-     if (currentTime <= 0) {
-        currentTime = 0;
-        countdownText.text = "Go";
-     }
-
-    if (currentTime <= 0 && !goDisplayed)
-    {
-        currentTime = 0;
-        countdownText.text = "Go";
-        goDisplayed = true;
-        Invoke("ResetCountdownText", 1f);
-    }
+  
 }
 
-void ResetCountdownText()
-{
-    countdownText.text = "";
-}
 
 
 }
