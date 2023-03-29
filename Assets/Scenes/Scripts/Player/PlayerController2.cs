@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class PlayerController: MonoBehaviour
+public class PlayerController2: MonoBehaviour
 {
     private float horizontal;
     private float speed = 6f;
@@ -19,34 +19,34 @@ public class PlayerController: MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private TrailRenderer tr;
 
-    private void Update()
+    private void Update2()
     {
         if (isDashing)
         {
             return;
         }
 
-        horizontal = Input.GetAxisRaw("Horizontal");
+        horizontal = Input.GetAxisRaw("Q,D");
 
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+        if (Input.GetButtonDown("Z") && IsGrounded2())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
         }
 
-        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
+        if (Input.GetButtonUp("Z") && rb.velocity.y > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        if (Input.GetKeyDown("X") && canDash)
         {
-            StartCoroutine(Dash());
+            StartCoroutine(Dash2());
         }
 
-        Flip();
+        Flip2();
     }
 
-    private void FixedUpdate()
+    private void FixedUpdate2()
     {
         if (isDashing)
         {
@@ -56,12 +56,12 @@ public class PlayerController: MonoBehaviour
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
     }
 
-    private bool IsGrounded()
+    private bool IsGrounded2()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
 
-    private void Flip()
+    private void Flip2()
     {
         if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
         {
@@ -71,13 +71,13 @@ public class PlayerController: MonoBehaviour
             transform.localScale = localScale;
         }
     }
-    public void Stop()
+    public void Stop2()
  {
     rb.velocity = new Vector2(0, rb.velocity.y);
     enabled = false;
  }
 
-    private IEnumerator Dash()
+    private IEnumerator Dash2()
     {
         canDash = false;
         isDashing = true;
@@ -93,4 +93,5 @@ public class PlayerController: MonoBehaviour
         canDash = true;
     }
 }
+
 
