@@ -16,7 +16,7 @@ public class PlayerController: MonoBehaviour
     private bool isDashing;
     private float dashingPower = 150f;
     private float dashingTime = 0.5f;
-    private float dashingCooldown = 2f;
+    private float dashingCooldown = 5f;
 
     [SerializeField] private KeyCode jump ;
     [SerializeField] private KeyCode dash ;
@@ -65,9 +65,13 @@ public class PlayerController: MonoBehaviour
         
     }
 
-    private void Start() {
-        checkpointIndex = 0;
-    }
+
+
+private void Start()
+{
+    checkpointIndex = 0;
+}
+
 
     private void FixedUpdate()
     {
