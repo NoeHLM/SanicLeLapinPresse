@@ -9,6 +9,8 @@ public class PlayerController: MonoBehaviour
     private float jumpingPower = 20f;
     private bool isFacingRight = true;
 
+    private bool doubleJump;
+
     private bool canDash = true;
     private bool isDashing;
     private float dashingPower = 150f;
@@ -16,6 +18,8 @@ public class PlayerController: MonoBehaviour
     private float dashingCooldown = 2f;
 
     [SerializeField] private KeyCode jump ;
+    [SerializeField] private KeyCode dash ;
+    [SerializeField] private string horizontalInputName;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
@@ -27,25 +31,38 @@ public class PlayerController: MonoBehaviour
         {
             return;
         }
+        
+        // if (IsGrounded()) {
+        //     Debug.Log("test");
+        // }
+        Debug.Log(IsGrounded());
 
-        horizontal = Input.GetAxisRaw("Horizontal");
+        // if (IsGrounded() && !Input.GetKeyDown(jump))
+        // {
+        //     doubleJump = false;
+        // }
 
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+       
+        if ((IsGrounded() || doubleJump) && Input.GetKeyDown(jump))
+       
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+
+            doubleJump = !doubleJump;
         }
 
-        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
+        if (Input.GetKeyUp(jump) && rb.velocity.y > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        if (Input.GetKeyDown(dash) && canDash)
         {
             StartCoroutine(Dash());
         }
 
         Flip();
+        
     }
 
     private void FixedUpdate()
@@ -54,13 +71,19 @@ public class PlayerController: MonoBehaviour
         {
             return;
         }
+        
+        horizontal = Input.GetAxisRaw(horizontalInputName);
+        
 
+        
+        
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        
     }
 
     private bool IsGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        return Physics2D.OverlapCircle(groundCheck.position, 1.5f, groundLayer);
     }
 
     private void Flip()
