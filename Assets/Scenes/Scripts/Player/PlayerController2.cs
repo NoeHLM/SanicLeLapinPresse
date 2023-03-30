@@ -1,103 +1,67 @@
 using System.Collections;
 using UnityEngine;
 
-public class PlayerController: MonoBehaviour
+public class PlayerController2: MonoBehaviour
 {
     private float horizontal;
-    
-    private float speed = 15f;
-    private float jumpingPower = 20f;
+    private float speed = 6f;
+    private float jumpingPower = 16f;
     private bool isFacingRight = true;
 
-    private bool doubleJump;
-    public int checkpointIndex;
     private bool canDash = true;
     private bool isDashing;
-    private float dashingPower = 150f;
+    private float dashingPower = 50f;
     private float dashingTime = 0.5f;
     private float dashingCooldown = 2f;
 
-    [SerializeField] private KeyCode jump ;
-    [SerializeField] private KeyCode dash ;
-    [SerializeField] private string horizontalInputName;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private TrailRenderer tr;
 
-    private void Update()
+    private void Update2()
     {
         if (isDashing)
         {
             return;
         }
-        
-        // if (IsGrounded()) {
-        //     Debug.Log("test");
-        // }
-        Debug.Log(IsGrounded());
 
-        // if (IsGrounded() && !Input.GetKeyDown(jump))
-        // {
-        //     doubleJump = false;
-        // }
+        horizontal = Input.GetAxisRaw("Q,D");
 
-       
-        if ((IsGrounded() || doubleJump) && Input.GetKeyDown(jump))
-       
+        if (Input.GetButtonDown("Z") && IsGrounded2())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
-
-            doubleJump = !doubleJump;
         }
 
-        if (Input.GetKeyUp(jump) && rb.velocity.y > 0f)
+        if (Input.GetButtonUp("Z") && rb.velocity.y > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
 
-        if (Input.GetKeyDown(dash) && canDash)
+        if (Input.GetKeyDown("X") && canDash)
         {
-            StartCoroutine(Dash());
+            StartCoroutine(Dash2());
         }
 
-        Flip();
-
-
-        
+        Flip2();
     }
 
-
-    private void Start()
-    {
-        checkpointIndex = 0;
-    }
-
-
-
-
-    private void FixedUpdate()
+    private void FixedUpdate2()
     {
         if (isDashing)
         {
             return;
         }
-        
-        horizontal = Input.GetAxisRaw(horizontalInputName);
-        
 
-        
-        
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
-        
     }
 
-    private bool IsGrounded()
+    private bool IsGrounded2()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 1.5f, groundLayer);
+        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
 
-    private void Flip()
+    private void Flip2()
     {
         if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
         {
@@ -107,13 +71,13 @@ public class PlayerController: MonoBehaviour
             transform.localScale = localScale;
         }
     }
-    public void Stop()
+    public void Stop2()
  {
     rb.velocity = new Vector2(0, rb.velocity.y);
     enabled = false;
  }
 
-    private IEnumerator Dash()
+    private IEnumerator Dash2()
     {
         canDash = false;
         isDashing = true;
@@ -129,4 +93,5 @@ public class PlayerController: MonoBehaviour
         canDash = true;
     }
 }
+
 
