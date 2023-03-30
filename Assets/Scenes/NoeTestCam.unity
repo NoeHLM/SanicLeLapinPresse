@@ -4922,12 +4922,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jump: 0
   horizontalInputName: Horizontal2
-  rb: {fileID: 0}
-  groundCheck: {fileID: 0}
+  rb: {fileID: 1902429235}
+  groundCheck: {fileID: 494486103}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
-  tr: {fileID: 0}
+    m_Bits: 64
+  tr: {fileID: 1902429232}
 --- !u!1 &1920374967
 GameObject:
   m_ObjectHideFlags: 0
