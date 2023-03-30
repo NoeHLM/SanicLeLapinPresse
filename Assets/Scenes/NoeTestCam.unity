@@ -2041,6 +2041,10 @@ PrefabInstance:
       propertyPath: groundLayer.m_Bits
       value: 64
       objectReference: {fileID: 0}
+    - target: {fileID: 260342982896372017, guid: 95cb74a6e3315f541a08a58e7be74ecc, type: 3}
+      propertyPath: horizontalInputName
+      value: Horizontal
+      objectReference: {fileID: 0}
     - target: {fileID: 260342982896372026, guid: 95cb74a6e3315f541a08a58e7be74ecc, type: 3}
       propertyPath: m_Name
       value: Player
@@ -4682,8 +4686,8 @@ GameObject:
   - component: {fileID: 1902429230}
   - component: {fileID: 1902429235}
   - component: {fileID: 1902429234}
-  - component: {fileID: 1902429233}
   - component: {fileID: 1902429232}
+  - component: {fileID: 1902429236}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Untagged
@@ -4857,24 +4861,6 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 0
---- !u!114 &1902429233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1902429229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7cc3628a496d450e82e3d5eee4a88e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 1902429235}
-  groundCheck: {fileID: 494486103}
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  tr: {fileID: 0}
 --- !u!61 &1902429234
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4922,6 +4908,26 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1902429236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902429229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3bd220fce96470409e9d4790666019c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jump: 0
+  horizontalInputName: Horizontal2
+  rb: {fileID: 0}
+  groundCheck: {fileID: 0}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  tr: {fileID: 0}
 --- !u!1 &1920374967
 GameObject:
   m_ObjectHideFlags: 0

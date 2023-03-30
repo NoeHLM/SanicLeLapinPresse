@@ -16,6 +16,7 @@ public class PlayerController: MonoBehaviour
     private float dashingCooldown = 2f;
 
     [SerializeField] private KeyCode jump ;
+    [SerializeField] private string horizontalInputName;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
@@ -28,7 +29,8 @@ public class PlayerController: MonoBehaviour
             return;
         }
 
-        horizontal = Input.GetAxisRaw("Horizontal");
+        float horizontal = Input.GetAxisRaw(horizontalInputName);
+        
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
@@ -54,8 +56,9 @@ public class PlayerController: MonoBehaviour
         {
             return;
         }
-
+        
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        
     }
 
     private bool IsGrounded()
