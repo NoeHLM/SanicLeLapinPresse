@@ -14,7 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu3.unity
     guid: 7011ff9d19a544f73b681c5ac9484b73
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/hamzascene.unity
     guid: 1d411b969cc3c43c0814f368a93a9dcc
+  - enabled: 1
+    path: Assets/Scenes/NoeTestCam.unity
+    guid: eb0f8d559765442cd82cb23244a1796f
   m_configObjects: {}

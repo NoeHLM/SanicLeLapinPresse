@@ -72,7 +72,20 @@ public class CameraController : MonoBehaviour
             
        if (!testMort.GetComponent<BoxCollider2D>().OverlapPoint(GameObject.Find("Player").transform.position))
             {
+                 GameObject explosion = new GameObject();
+                explosion.transform.position = GameObject.Find("Player").transform.position;
+                explosion.AddComponent<SpriteRenderer>();
                 
+                // Charger le GIF en tant que Sprite
+                string path = "explosion.gif";
+                Sprite sprite = Resources.Load<Sprite>(path);
+                
+                // Affecter le Sprite à l'objet SpriteRenderer
+                SpriteRenderer renderer = explosion.GetComponent<SpriteRenderer>();
+                renderer.sprite = sprite;
+                
+                // Détruire l'explosion après quelques secondes
+                Destroy(explosion, 3f);
             }
         if (!testMort.GetComponent<BoxCollider2D>().OverlapPoint(GameObject.Find("Player2").transform.position))
             {
