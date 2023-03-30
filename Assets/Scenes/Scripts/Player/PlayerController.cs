@@ -10,6 +10,7 @@ public class PlayerController: MonoBehaviour
     private bool isFacingRight = true;
 
     private bool doubleJump;
+
     public int checkpointIndex;
     private bool canDash = true;
     private bool isDashing;
@@ -35,8 +36,7 @@ public class PlayerController: MonoBehaviour
         // if (IsGrounded()) {
         //     Debug.Log("test");
         // }
-        Debug.Log(IsGrounded());
-
+        
         // if (IsGrounded() && !Input.GetKeyDown(jump))
         // {
         //     doubleJump = false;
@@ -66,14 +66,11 @@ public class PlayerController: MonoBehaviour
     }
 
 
+
 private void Start()
 {
     checkpointIndex = 0;
 }
-
-
-
-
 
 
     private void FixedUpdate()
