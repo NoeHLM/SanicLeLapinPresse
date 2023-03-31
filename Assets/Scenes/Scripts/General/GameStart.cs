@@ -7,17 +7,22 @@ using TMPro;
 
 public class GameStart : MonoBehaviour
 {
-    float currentTime= 0f;
-    float startingTime= 3f;
+     
     
     
     [SerializeField] TMP_Text countdownText;
     private float timeRemaining = 3f;
 
     // Start is called before the first frame update
+
+    [SerializeField] private GameObject player;
+    [SerializeField] private GameObject player2;
    void Start()
     {
-        StartCoroutine(CountdownRoutine());
+    GameObject player = GameObject.Find("Player");
+    GameObject player2 = GameObject.Find("Player2");
+    StartCoroutine(CountdownRoutine());
+        
     }
 
     IEnumerator CountdownRoutine()
@@ -27,8 +32,13 @@ public class GameStart : MonoBehaviour
             countdownText.text = Mathf.CeilToInt(timeRemaining).ToString();
             yield return new WaitForSeconds(1f);
             timeRemaining--;
+            Debug.Log(player);
         }
         countdownText.gameObject.SetActive(false);
+        player.GetComponent<PlayerController>().enabled=true;
+        player2.GetComponent<PlayerController>().enabled=true;
+        
+        
     }
 
 void Update()

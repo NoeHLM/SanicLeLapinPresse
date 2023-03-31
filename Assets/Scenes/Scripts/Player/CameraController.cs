@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CameraController : MonoBehaviour
 {
@@ -34,6 +35,10 @@ public class CameraController : MonoBehaviour
     private Transform P1;
     [SerializeField]
     private Transform P2;
+    [SerializeField] private Transform explosionTransform;
+
+    
+    
 
     // Update is called once per frame
     void Update()
@@ -72,24 +77,18 @@ public class CameraController : MonoBehaviour
             
        if (!testMort.GetComponent<BoxCollider2D>().OverlapPoint(GameObject.Find("Player").transform.position))
             {
-                 GameObject explosion = new GameObject();
-                explosion.transform.position = GameObject.Find("Player").transform.position;
-                explosion.AddComponent<SpriteRenderer>();
+                explosionTransform.gameObject.SetActive(true);
+                 StartCoroutine(LoadNext2Scene());
                 
-                // Charger le GIF en tant que Sprite
-                string path = "explosion.gif";
-                Sprite sprite = Resources.Load<Sprite>(path);
                 
-                // Affecter le Sprite à l'objet SpriteRenderer
-                SpriteRenderer renderer = explosion.GetComponent<SpriteRenderer>();
-                renderer.sprite = sprite;
                 
-                // Détruire l'explosion après quelques secondes
-                Destroy(explosion, 3f);
             }
         if (!testMort.GetComponent<BoxCollider2D>().OverlapPoint(GameObject.Find("Player2").transform.position))
             {
+                explosionTransform.gameObject.SetActive(true);
                 
+                StartCoroutine(LoadNextScene());
+
             }
         
         Vector3 destination = Vector3.Lerp(transform.position, m_Target.position + m_Offset, m_Speed * Time.deltaTime);
@@ -99,13 +98,14 @@ public class CameraController : MonoBehaviour
         if(test==true)
            {
             test =false;
-             GetComponent<Camera>().orthographicSize = GetComponent<Camera>().orthographicSize  - 0.2f;
+             GetComponent<Camera>().orthographicSize = GetComponent<Camera>().orthographicSize  - 2f;
              if(GetComponent<Camera>().orthographicSize < 2)
              {
                  GetComponent<Camera>().orthographicSize = 2; 
              }
            }
         OnTriggerEnter2D();
+        
         
 
 }
@@ -178,5 +178,15 @@ public class CameraController : MonoBehaviour
  
     }
     
-}
+} 
+    private IEnumerator LoadNextScene()
+    {
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    private IEnumerator LoadNext2Scene()
+    {
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2 );
+    }
 }
